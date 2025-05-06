@@ -1,4 +1,4 @@
-import { useNavigate, useLocation, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { products } from '../../../Utils/Products';
 import {  AnimatePresence } from 'framer-motion';

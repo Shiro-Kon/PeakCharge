@@ -7,8 +7,7 @@ import { useCart } from '../../CartPage/CartContext';
 import Notification from './Notification';
 
 const ProductDetailsPage: React.FC = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
+ 
   const { productId } = useParams<{ productId: string }>();
   const product = products.find((p) => p.id === productId);
   const [showNotification, setShowNotification] = useState(false);

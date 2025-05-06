@@ -14,7 +14,7 @@ const text2 = [
     { name: 'Gifts', description: 'Подарунки та спецпропозиції для передплатників.' },
   ]
 
-const Subscriptions_WHy = (props: Props) => {
+const SubscriptionsWHy = (props: Props) => {
   return (
     <main className="relative min-h-screen overflow-hidden border-b border-gray-600 ">
     <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 text-white/90 ">
@@ -70,4 +70,4 @@ const Subscriptions_WHy = (props: Props) => {
   )
 }
 
-export default Subscriptions_WHy
+export default SubscriptionsWHy

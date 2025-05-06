@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SubscriptionModal from "./SubscriptionModal"; 
 
-const Subscriptions_HS = () => {
+const SubscriptionsHS = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -26,4 +26,4 @@ const Subscriptions_HS = () => {
   );
 };
 
-export default Subscriptions_HS;
+export default SubscriptionsHS;

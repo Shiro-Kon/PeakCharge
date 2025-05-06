@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 type Props = {};
 
-const Subscriptions_CTA = (props: Props) => {
+const SubscriptionsCTA = (props: Props) => {
   return (
     <section className="py-16 px-4  text-center text-white">
       <h2 className="text-3xl md:text-4xl font-bold max-w-3xl mx-auto leading-snug">
@@ -24,4 +24,4 @@ const Subscriptions_CTA = (props: Props) => {
   );
 };
 
-export default Subscriptions_CTA;
+export default SubscriptionsCTA;

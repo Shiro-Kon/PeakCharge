@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {}
 
-const Subscriptions_FAQ = (props: Props) => {
+const SubscriptionsFAQ = (props: Props) => {
   return (
     <section className="py-16 px-4  text-white border-y border-gray-600">
     <div className="max-w-4xl mx-auto text-center">
@@ -26,4 +26,4 @@ const Subscriptions_FAQ = (props: Props) => {
   )
 }
 
-export default Subscriptions_FAQ
+export default SubscriptionsFAQ

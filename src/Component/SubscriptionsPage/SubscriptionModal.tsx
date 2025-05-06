@@ -14,7 +14,7 @@ const SubscriptionModal = ({ isOpen, onClose }: Props) => {
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  // Закрытие по Esc
+
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();

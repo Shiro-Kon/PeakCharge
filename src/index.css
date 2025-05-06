@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: black;
+  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+h1, h2, h3 {
+  font-family: 'Cocomat Pro', sans-serif; 
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+ 
+  width: 100%;
+  position: relative;
+}
+
+.spinner-border {
+  border-top-color: transparent;
+  border-right-color: rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-left-color: #000;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.button-hover:hover {
+  animation: scaleUp 0.3s ease-out;
+}
+
+
+body {
+  user-select: none; 
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+
+
+.m-\[56px\]{
+  margin: 0;
+}
+
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+

@@ -63,11 +63,11 @@ const SubscriptionModal = ({ isOpen, onClose }: Props) => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/20 backdrop-blur-md"
       onClick={onClose}
     >
       <div
-        className="bg-white/20 rounded-2xl shadow-2xl p-8 max-w-md w-full text-white/90 transform transition-all duration-300 scale-100 opacity-100"
+        className="bg-white/40 rounded-2xl shadow-5xl m-8 p-8 max-w-md w-full text-white/90 transform transition-all duration-300 scale-100 opacity-100"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between items-center mb-4">

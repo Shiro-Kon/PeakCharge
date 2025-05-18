@@ -13,7 +13,7 @@ const Notification: React.FC<NotificationProps> = ({ message }) => {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
-      className="fixed top-[12%] right-2 text-[12px]  rounded-[10px] bg-white/10 backdrop-blur-3xl ring-1 ring-gray-400 px-4 py-2 text-sm  font-normal text-white/90 shadow-sm "
+      className="fixed top-[85px] xl:top-[95px]  right-2 text-[12px]  rounded-[10px] bg-white/10 backdrop-blur-3xl ring-1 ring-gray-400 px-4 py-2 text-sm  font-normal text-white/90 shadow-sm "
     >
       <p>{message}</p>
     </motion.div>

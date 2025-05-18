@@ -11,9 +11,9 @@ const BlogDetailsPage: React.FC = () => {
   }
 
   return (
-    <div className="container mx-auto md:w-[90%] my-12 md:my-16 xl:my-28 ">
+    <div className="container mx-auto mt-[100px] md:mt-[120px] xxl:mt-[150px] md:w-[90%] ">
       <div className="max-w-4xl mx-auto ">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl xxl:text-8xl text-white/90 text-center px-4 my-10 font-normal">
+        <h1 className="text-2xl md:text-5xl lg:text-4xl xl:text-5xl  text-white/90 text-center px-4 my-10 font-normal">
           {post.title}
         </h1>
         <div className="text-sm lg:text-lg xl:text-xl leading-relaxed text-white/90 font-normal">

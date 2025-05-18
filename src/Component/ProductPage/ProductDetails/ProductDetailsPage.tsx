@@ -40,7 +40,7 @@ const ProductDetailsPage: React.FC = () => {
         </div>
         <div className="md:w-1/2">
           <AnimatedElement direction="right" delay={0.3}>
-            <h1 className="text-3xl md:text-4xl  font-normal text-white/90 mb-6">
+            <h1 className="text-2xl md:text-4xl  font-normal text-white/90 mb-6">
               {product.name} <br /> <span className="text-gray-400 text-xl md:text-2xl">{product.subname}</span>
             </h1>
             <div className="space-y-3 text-sm md:text-sm lg:text-md xl:text-lg text-white/90 mb-8 font-normal">

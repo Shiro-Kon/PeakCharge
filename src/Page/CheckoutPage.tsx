@@ -55,7 +55,7 @@ const CheckoutPage: React.FC = () => {
   };
 
   return (
-    <main className=" flex flex-col items-center  my-12 md:my-16 xxl:my-28 px-4 md:px-8 lg:px-12 isolate z-10">
+    <main className=" flex flex-col items-center   md:my-18 xxl:my-28 px-4 md:px-8 lg:px-12 isolate z-10 mt-[100px]">
       <div className="w-full max-w-4xl   rounded-lg overflow-hidden">
         <AnimatedElement direction="up" delay={0.1} className="p-6">
           <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white/90 mb-6 text-center">
@@ -102,19 +102,19 @@ const CheckoutPage: React.FC = () => {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleInputChange}
-                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20 "
+                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20  text-white/90 font-normal"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="phoneNumber" className="block text-base font-normal text-white/90">Номер телефону</label>
+                <label htmlFor="phoneNumber" className="block text-base font-normal text-white/90 ">Номер телефону</label>
                 <input
                   type="tel"
                   id="phoneNumber"
                   name="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20"
+                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20 text-white/90 font-normal"
                   required
                 />
               </div>
@@ -126,7 +126,7 @@ const CheckoutPage: React.FC = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20"
+                  className="w-full p-3 border border-gray-300 rounded-lg bg-white/20 text-white/90 font-normal"
                   required
                 />
               </div>

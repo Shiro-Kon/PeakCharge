@@ -6,10 +6,10 @@ const SubscriptionsHS = () => {
 
   return (
     <main className="relative min-h-screen overflow-hidden border-b border-gray-600 text-center flex flex-col items-center justify-center px-4 text-white/90 font-normal">
-      <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold max-w-4xl leading-tight">
+      <h1 className="text-3xl  md:text-7xl font-bold max-w-4xl leading-tight">
         PeakCharge - Твоя сила, твої правила
       </h1>
-      <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl">
+      <p className="mt-6 text-sm md:text-xl xl:text-2xl xxl:text-3xl   text-gray-400 max-w-2xl xl:max-w-4xl">
         Оформи підписку на спортивне харчування та отримай більше, ніж просто продукт: безкоштовна доставка, консультації, доступ до спільноти та ексклюзивні подарунки.
       </p>
       <div className="mt-10 flex items-center justify-center gap-x-6">

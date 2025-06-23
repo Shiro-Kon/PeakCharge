@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 
 const ScrollToTopButton: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -7,9 +7,9 @@ const ScrollToTopButton: React.FC = () => {
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
-        setIsVisible(true); 
+        setIsVisible(true);
       } else {
-        setIsVisible(false); 
+        setIsVisible(false);
       }
     };
 
@@ -21,14 +21,14 @@ const ScrollToTopButton: React.FC = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", 
+      behavior: "smooth",
     });
   };
 
   const iconAnimation = {
     initial: { y: 0, opacity: 1 },
-    animate: { y: -50, opacity: 0 }, 
-    transition: { duration: 0.3, ease: "easeInOut" }, 
+    animate: { y: -50, opacity: 0 },
+    transition: { duration: 0.3, ease: "easeInOut" },
   };
 
   return (
@@ -49,8 +49,8 @@ const ScrollToTopButton: React.FC = () => {
           stroke-width="1.5"
           stroke="currentColor"
           className="size-6"
-          initial={iconAnimation.initial} 
-          whileTap={iconAnimation.animate} 
+          initial={iconAnimation.initial}
+          whileTap={iconAnimation.animate}
           transition={iconAnimation.transition}
         >
           <path

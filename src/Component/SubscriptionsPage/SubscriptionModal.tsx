@@ -32,7 +32,7 @@ const SubscriptionModal = ({ isOpen, onClose }: Props) => {
     setSuccessMessage("");
 
     try {
-        const response = await fetch("http://localhost:4000/subscribe", {
+        const response = await fetch("http://localhost:3000/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

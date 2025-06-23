@@ -46,11 +46,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+   "start": "concurrently \"npm run server\" \"npm run subscriptions\" \"npm run client\"",
     "client": "react-scripts start",
     "server": "nodemon server/Tg-bot.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "subscriptions": "nodemon server/tg-bot-subscriptions.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

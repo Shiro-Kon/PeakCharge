@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf('7895017538:AAH_2Hpva00xFtfEwTMwY0QkYUqGaGA4sT8');
-const CHAT_ID = '346038888';
+const bot = new Telegraf('Here is the token for bot');
+const CHAT_ID = "@userinfobot - here's the chat ID";
 
 bot.telegram.sendMessage(CHAT_ID, 'Тестове повідомлення від сервера!')
   .then(() => console.log('Повідомлення відправлено'))

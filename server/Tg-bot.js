@@ -3,8 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { Telegraf } = require("telegraf");
 
-const bot = new Telegraf("7468145333:AAFDtSIi6wT_6hQ_oIr_mlqqKCqRz0NF3fg");
-const CHAT_ID = "346038888";
+const bot = new Telegraf('Here is the token for bot');
+const CHAT_ID = "@userinfobot - here's the chat ID";
 
 const app = express();
 
